@@ -29,6 +29,6 @@ request1.send();
 request1.onload=function(){
     var res1=JSON.parse(request.response);
          for (var i=0;i<res1.length;i++){
-        console.log("countrie : "+res1[i].name,",region: "+res1[i].region,",subregion : "+res1[i].subregion,",population : "+res1[i].population);
+        console.log("countrie : "+res1[i].name,", region: "+res1[i].region,", subregion : "+res1[i].subregion,", population : "+res1[i].population);
      }
 };
